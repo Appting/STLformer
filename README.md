@@ -1,6 +1,6 @@
 # Spatial-Temporal Dynamics Modeling for Traffic Flow Prediction: A Hybrid LSTM and Transformer Approach
 
-![Spatial-Temporal Dynamics Modeling for Traffic Flow Prediction](model_picture.jpg "Model Architecture")
+![Spatial-Temporal Dynamics Modeling for Traffic Flow Prediction](model_picture.svg "Model Architecture")
 
 ## Requirements
 - scipy==1.5.4
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-The traffic data files  PEMSD7(M), PeMS-BAY, and METR-LA datasets.They are available at [Google Drive](https://drive.google.com/open?id=10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX) or [Baidu Yun](https://pan.baidu.com/s/183zHtyHp2zAGxVxMH9n79Q?pwd=4444), and should be
+The traffic data files  PEMSD7(M), PeMS-BAY, and METR-LA datasets.They are available at [Baidu Yun](https://pan.baidu.com/s/183zHtyHp2zAGxVxMH9n79Q?pwd=4444), and should be
 put into the `data_loader/` folder.
 
 ### Metric for different horizons and datasets
